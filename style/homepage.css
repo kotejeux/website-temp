@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #FDF6E3;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+#group_photo {
+    max-width: 100%;
+    scale: auto;
+}
+
+@media only screen and (min-device-width: 400px) {
+    #group_photo {
+        max-width: 50%;
+        scale: auto;
+    }
+}
